@@ -3,9 +3,13 @@
    <description></description>
    <name>web-service-tests</name>
    <tag></tag>
-   <UUID>4944de0d-f865-41c5-8f26-b7e143c3a65a</UUID>
+   <UUID>dd0a645d-37d1-42d8-a63c-b5b2e697776e</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\DELL\Katalon Studio\Project cpnr\web-service-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -24,5 +28,6 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBSERVICE</type>
 </Project>

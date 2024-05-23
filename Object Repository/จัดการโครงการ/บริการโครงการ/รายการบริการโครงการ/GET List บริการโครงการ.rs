@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET List Highlight Page</name>
+   <name>GET List บริการโครงการ</name>
    <tag></tag>
-   <elementGuidId>b1b0992f-38f0-4864-8f83-383734357ca1</elementGuidId>
+   <elementGuidId>c5d93dbc-94b3-487e-b1be-0d44d8bed67a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,25 +16,25 @@
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
+      <name>Authorization</name>
       <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>8b6e1adc-3646-485e-9368-6220c1d227f4</webElementGuid>
+      <value>Bearer ${token}</value>
+      <webElementGuid>0d7551f6-72b5-43a6-92ed-e8da6ba4845b</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>Authorization</name>
+      <name>Content-Type</name>
       <type>Main</type>
-      <value>Bearer ${token}</value>
-      <webElementGuid>8d0c2f18-b01a-4138-b3c9-eef6d6320380</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>1f1a8f67-d7f7-49f0-8866-baab9ebbacbd</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://45.150.131.146:7090/api-backoffice/announcement-cpnr?page=1&amp;limit=10</restUrl>
+   <restUrl>http://45.150.131.146:7090/api-backoffice/project/service?page=1&amp;limit=10</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -46,7 +46,7 @@
    <variables>
       <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
-      <id>82834f13-95db-4127-8027-83fa0d1d512e</id>
+      <id>2dc79c8c-5e83-4e8d-a634-8222668814b3</id>
       <masked>false</masked>
       <name>token</name>
    </variables>

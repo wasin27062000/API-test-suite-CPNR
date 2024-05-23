@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET select project บริการโครงการ add and edit case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2592b61-9304-44a0-93e7-9cb100c64037</testCaseGuid>
+</TestCaseEntity>

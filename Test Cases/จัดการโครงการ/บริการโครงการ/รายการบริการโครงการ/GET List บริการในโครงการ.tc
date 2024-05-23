@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GET List บริการในโครงการ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09f7e2f4-5128-4c6a-8718-485547a28727</testCaseGuid>
+</TestCaseEntity>

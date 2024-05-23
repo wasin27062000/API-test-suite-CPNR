@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET List Highlight Page</name>
+   <name>GET select Project add and edit Highlight</name>
    <tag></tag>
-   <elementGuidId>b1b0992f-38f0-4864-8f83-383734357ca1</elementGuidId>
+   <elementGuidId>002812ec-f325-46c1-8c31-45a2c862f8ad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -19,7 +19,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>8b6e1adc-3646-485e-9368-6220c1d227f4</webElementGuid>
+      <webElementGuid>c981bd4e-ed50-4c8c-925a-de263777471c</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -27,14 +27,14 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${token}</value>
-      <webElementGuid>8d0c2f18-b01a-4138-b3c9-eef6d6320380</webElementGuid>
+      <webElementGuid>7cf86ed6-91cc-4068-9bdc-eacfba64a01c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>http://45.150.131.146:7090/api-backoffice/announcement-cpnr?page=1&amp;limit=10</restUrl>
+   <restUrl>http://45.150.131.146:7090/api-backoffice/project/select</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -46,7 +46,7 @@
    <variables>
       <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
-      <id>82834f13-95db-4127-8027-83fa0d1d512e</id>
+      <id>f5f04880-3344-49ec-a316-9ed67fd26aa8</id>
       <masked>false</masked>
       <name>token</name>
    </variables>

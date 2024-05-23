@@ -149,4 +149,14 @@
       <initValue>'${projectname_en}'</initValue>
       <name>projectname_en</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${id_highlight}'</initValue>
+      <name>id_highlight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${id_serviceproject}'</initValue>
+      <name>id_serviceproject</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

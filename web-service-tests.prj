@@ -4,12 +4,12 @@
    <name>web-service-tests</name>
    <tag></tag>
    <UUID>dd0a645d-37d1-42d8-a63c-b5b2e697776e</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.4.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\DELL\Katalon Studio\Project cpnr\web-service-tests.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\wasin\Katalon Studio\API-test-suite-CPNR\web-service-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

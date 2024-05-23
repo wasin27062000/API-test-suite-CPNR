@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST user not input department</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a57e939-619b-4747-b537-ec95a9c8a5da</testCaseGuid>
+</TestCaseEntity>

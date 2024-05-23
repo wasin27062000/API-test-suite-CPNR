@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UPDATE user not input name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c7d3057-8d97-4b8d-880e-c8bdd1c92631</testCaseGuid>
+</TestCaseEntity>

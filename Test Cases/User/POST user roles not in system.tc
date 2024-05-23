@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST user roles not in system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f60bc7ac-9571-492a-a55b-6cfea8ebae68</testCaseGuid>
+</TestCaseEntity>

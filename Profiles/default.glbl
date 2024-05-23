@@ -124,4 +124,29 @@
       <initValue>'${id_user}'</initValue>
       <name>id_user</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${uuid}'</initValue>
+      <name>uuid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${id_permission}'</initValue>
+      <name>id_permission</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${iconid}'</initValue>
+      <name>iconid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${projectname_th}'</initValue>
+      <name>projectname_th</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${projectname_en}'</initValue>
+      <name>projectname_en</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UPDATE user not input sso</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>79fb862c-6f03-4af3-a9bd-2c900e53ab4e</testCaseGuid>
+</TestCaseEntity>

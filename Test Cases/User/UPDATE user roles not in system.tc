@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UPDATE user roles not in system</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7da381dc-0e54-47c0-ad67-eca567a10610</testCaseGuid>
+</TestCaseEntity>

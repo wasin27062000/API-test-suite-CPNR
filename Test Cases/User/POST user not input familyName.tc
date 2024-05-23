@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST user not input familyName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d503c594-e990-4e73-a868-888ebf2e68a8</testCaseGuid>
+</TestCaseEntity>

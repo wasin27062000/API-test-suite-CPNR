@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Add บริการในโครงการ</name>
+   <name>Edit บริการในโครงการไม่สำเร็จ เนื่องจากไม่กรอกข้อมูลภาษาอังกฤษ</name>
    <tag></tag>
-   <elementGuidId>f9eb530f-ec53-4c06-87aa-405d5c9268d4</elementGuidId>
+   <elementGuidId>30bb0b8a-6a41-402a-a948-3c4a455efe0a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n   \&quot;id\&quot;:null,\n   \&quot;name\&quot;:{\n      \&quot;th\&quot;:\&quot;ทดสอบ\&quot;,\n      \&quot;en\&quot;:\&quot;Test\&quot;\n   },\n   \&quot;shortDescription\&quot;:{\n      \&quot;th\&quot;:\&quot;ทดสอบ\&quot;,\n      \&quot;en\&quot;:\&quot;Test\&quot;\n   },\n   \&quot;description\&quot;:{\n      \&quot;th\&quot;:\&quot;\u003cp\u003eทดสอบ\u003c/p\u003e\&quot;,\n      \&quot;en\&quot;:\&quot;\u003cp\u003eTest\u003c/p\u003e\&quot;\n   },\n   \&quot;createdAt\&quot;:null,\n   \&quot;image\&quot;:\&quot;https://residentialfamily-dev.centralpattana.co.th/dev/assets/upload/service/019c2505-4495-4f82-954a-aaf481937341.jpg\&quot;,\n   \&quot;category\&quot;:{\n      \&quot;id\&quot;:\&quot;3a7b407e-3a37-4a04-b344-42c151fc1ae5\&quot;,\n      \&quot;createdAt\&quot;:\&quot;2023-05-17T04:38:32.923Z\&quot;,\n      \&quot;updatedAt\&quot;:\&quot;2023-10-17T08:48:00.000Z\&quot;,\n      \&quot;name\&quot;:{\n         \&quot;th\&quot;:\&quot;ทดสอบหมวดหมู่ 2\&quot;,\n         \&quot;en\&quot;:\&quot;ทดสอบหมวดหมู่ 2\&quot;\n      }\n   },\n   \&quot;buttonType\&quot;:\&quot;phone\&quot;,\n   \&quot;buttonValue\&quot;:\&quot;0851518065\&quot;,\n   \&quot;buttonName\&quot;:{\n      \&quot;th\&quot;:\&quot;โทร\&quot;,\n      \&quot;en\&quot;:\&quot;TEl\&quot;\n   },\n   \&quot;active\&quot;:false\n}&quot;,
+  &quot;text&quot;: &quot;{\n   \&quot;id\&quot;:\&quot;${id_serviceproject}\&quot;,\n   \&quot;name\&quot;:{\n      \&quot;th\&quot;:\&quot;ทดสอบแก้ไข\&quot;,\n      \&quot;en\&quot;:\&quot;\&quot;\n   },\n   \&quot;shortDescription\&quot;:{\n      \&quot;th\&quot;:\&quot;ทดสอบ\&quot;,\n      \&quot;en\&quot;:\&quot;\&quot;\n   },\n   \&quot;description\&quot;:{\n      \&quot;th\&quot;:\&quot;\u003cp\u003eทดสอบ\u003c/p\u003e\&quot;,\n      \&quot;en\&quot;:\&quot;\&quot;\n   },\n   \&quot;image\&quot;:\&quot;https://residentialfamily-dev.centralpattana.co.th/dev/assets/upload/service/019c2505-4495-4f82-954a-aaf481937341.jpg\&quot;,\n   \&quot;category\&quot;:{\n      \&quot;id\&quot;:\&quot;3a7b407e-3a37-4a04-b344-42c151fc1ae5\&quot;,\n      \&quot;createdAt\&quot;:\&quot;2023-05-17T04:38:32.923Z\&quot;,\n      \&quot;updatedAt\&quot;:\&quot;2023-10-17T08:48:00.000Z\&quot;,\n      \&quot;name\&quot;:{\n         \&quot;th\&quot;:\&quot;ทดสอบหมวดหมู่ 2\&quot;,\n         \&quot;en\&quot;:\&quot;\&quot;\n      }\n   },\n   \&quot;buttonType\&quot;:\&quot;phone\&quot;,\n   \&quot;buttonValue\&quot;:\&quot;\&quot;,\n   \&quot;buttonName\&quot;:{\n      \&quot;th\&quot;:\&quot;โทร\&quot;,\n      \&quot;en\&quot;:\&quot;\&quot;\n   },\n   \&quot;active\&quot;:false\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,21 +23,21 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>c019f92c-9f4a-4065-8723-abc60d65d471</webElementGuid>
+      <webElementGuid>d7b29b10-0b7f-417a-bab1-27ddc3201ea6</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>bearer ${token}</value>
-      <webElementGuid>b4ae9433-e4e9-4928-9050-fa139cb53cc8</webElementGuid>
+      <value>Bearer ${token}</value>
+      <webElementGuid>462198f6-8c1c-45bf-a099-550560d29997</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.4.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>POST</restRequestMethod>
+   <restRequestMethod>PATCH</restRequestMethod>
    <restUrl>http://45.150.131.146:7090/api-backoffice/project/a56b8623-1b44-4da8-9a19-d4479981c8fa/service</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -48,9 +48,16 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
+      <defaultValue>GlobalVariable.id_serviceproject</defaultValue>
+      <description></description>
+      <id>4a389bd8-bf89-4e23-bd78-0d4623a624e1</id>
+      <masked>false</masked>
+      <name>id_serviceproject</name>
+   </variables>
+   <variables>
       <defaultValue>GlobalVariable.token</defaultValue>
       <description></description>
-      <id>024afb54-7036-439f-a5c1-20eefc53d5fc</id>
+      <id>ffdc4f86-ff71-486b-95d7-cf275a15c19a</id>
       <masked>false</masked>
       <name>token</name>
    </variables>

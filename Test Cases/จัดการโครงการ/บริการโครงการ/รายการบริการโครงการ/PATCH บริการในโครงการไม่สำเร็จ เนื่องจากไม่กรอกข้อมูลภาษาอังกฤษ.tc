@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PATCH บริการในโครงการไม่สำเร็จ เนื่องจากไม่กรอกข้อมูลภาษาอังกฤษ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ec69bcd-f8c2-44c5-9687-df03137b943f</testCaseGuid>
+</TestCaseEntity>

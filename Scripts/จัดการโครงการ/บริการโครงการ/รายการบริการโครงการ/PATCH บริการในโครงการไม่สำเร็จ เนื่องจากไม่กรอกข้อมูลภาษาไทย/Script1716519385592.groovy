@@ -17,13 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('จัดการโครงการ/บริการโครงการ/รายการบริการโครงการ/Add บริการในโครงการสำเร็จ', [('token') : GlobalVariable.token]))
+response = WS.sendRequest(findTestObject('จัดการโครงการ/บริการโครงการ/รายการบริการโครงการ/Edit บริการในโครงการไม่สำเร็จ เนื่องจากไม่กรอกข้อมูลภาษาไทย', 
+        [('id_serviceproject') : GlobalVariable.id_serviceproject, ('token') : GlobalVariable.token]))
 
-id_serviceproject = WS.getElementPropertyValue(response, 'response.id')
+WS.verifyElementPropertyValue(response, 'status.cause', '00')
 
-GlobalVariable.id_serviceproject = id_serviceproject
-
-WS.verifyElementPropertyValue(response, 'status.cause', null)
-
-WS.verifyElementPropertyValue(response, 'status.code', '0000')
+WS.verifyElementPropertyValue(response, 'status.code', '4000')
 

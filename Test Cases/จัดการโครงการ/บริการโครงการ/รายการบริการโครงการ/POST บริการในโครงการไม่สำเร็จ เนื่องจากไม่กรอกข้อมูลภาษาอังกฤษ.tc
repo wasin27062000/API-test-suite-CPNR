@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>POST บริการในโครงการไม่สำเร็จ เนื่องจากไม่กรอกข้อมูลภาษาอังกฤษ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4518ddf2-1190-4874-8190-a43a3c64704f</testCaseGuid>
+</TestCaseEntity>

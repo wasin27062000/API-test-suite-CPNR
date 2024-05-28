@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ DELETE ประเภทบริการโครงการ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>246c9e34-1f2d-4f89-b230-6a1969e1b96f</testCaseGuid>
+</TestCaseEntity>

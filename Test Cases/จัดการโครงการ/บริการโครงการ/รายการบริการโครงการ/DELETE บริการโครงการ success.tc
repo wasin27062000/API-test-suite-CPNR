@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>DELETE Highlight success</name>
+   <name>DELETE บริการโครงการ success</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9d827b72-c54e-456c-bf5a-8c67edaf3590</testCaseGuid>

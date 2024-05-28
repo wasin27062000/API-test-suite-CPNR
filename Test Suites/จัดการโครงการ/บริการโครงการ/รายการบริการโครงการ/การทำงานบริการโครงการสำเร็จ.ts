@@ -57,7 +57,7 @@
       <guid>a2dfce77-511f-4ee0-ada7-ca54fb84a6ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/จัดการโครงการ/บริการโครงการ/รายการบริการโครงการ/DELETE Highlight success</testCaseId>
+      <testCaseId>Test Cases/จัดการโครงการ/บริการโครงการ/รายการบริการโครงการ/DELETE บริการโครงการ success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

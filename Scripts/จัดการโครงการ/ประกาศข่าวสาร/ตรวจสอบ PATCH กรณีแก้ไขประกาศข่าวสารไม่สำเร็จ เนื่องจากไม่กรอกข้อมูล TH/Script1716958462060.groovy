@@ -17,11 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('จัดการโครงการ/บริการโครงการ/จัดการประเภทบริการ/GET UUID'))
+response = WS.sendRequest(findTestObject('จัดการโครงการ/ประกาศข่าวสาร/ตรวจสอบการแก้ไขประกาศข่าวสารไม่สำเร็จ เนื่องจากไมกรอกข้อมูล TH', 
+        [('token') : GlobalVariable.token, ('id_announcement') : GlobalVariable.id_announcement]))
 
-uuid = WS.getElementPropertyValue(response, '[0]')
+WS.verifyElementPropertyValue(response, 'status.cause', '00')
 
-GlobalVariable.uuid = uuid
-
-println('uuid : ' + uuid)
+WS.verifyElementPropertyValue(response, 'status.code', '0001')
 

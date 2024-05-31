@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ PATCH กรณีแก้ไขประกาศข่าวสารไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล TH</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5227dbba-1b59-4e72-90c5-f5a1d1316493</testCaseGuid>
+</TestCaseEntity>

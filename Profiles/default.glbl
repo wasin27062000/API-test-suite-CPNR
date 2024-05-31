@@ -164,4 +164,14 @@
       <initValue>'${id_servicecategory}'</initValue>
       <name>id_servicecategory</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${id_announcement}'</initValue>
+      <name>id_announcement</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'${id_DeviceHomeAutomation}'</initValue>
+      <name>id_DeviceHomeAutomation</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

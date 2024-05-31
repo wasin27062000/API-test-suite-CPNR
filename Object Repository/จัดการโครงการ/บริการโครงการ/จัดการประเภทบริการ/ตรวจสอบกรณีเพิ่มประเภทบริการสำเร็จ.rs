@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: \&quot;6539f941-338d-4705-8072-81bd89167254\&quot;,\n  \&quot;type\&quot;: null,\n  \&quot;active\&quot;: null,\n  \&quot;name\&quot;: {\n    \&quot;th\&quot;: \&quot;ทดสอบเพิ่มประเภทบริการ\&quot;,\n    \&quot;en\&quot;: \&quot;test add service category\&quot;\n  } \n}\n&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: \&quot;${uuid}\&quot;,\n  \&quot;type\&quot;: null,\n  \&quot;active\&quot;: null,\n  \&quot;name\&quot;: {\n    \&quot;th\&quot;: \&quot;ทดสอบเพิ่มประเภทบริการ\&quot;,\n    \&quot;en\&quot;: \&quot;test add service category\&quot;\n  } \n}\n&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -53,6 +53,13 @@
       <id>a6fb38c6-0bbe-4318-88a7-36518fdec29c</id>
       <masked>false</masked>
       <name>token</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.uuid</defaultValue>
+      <description></description>
+      <id>66b44f3a-6bcd-4eff-b748-28c10e60e2b3</id>
+      <masked>false</masked>
+      <name>${uuid}</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

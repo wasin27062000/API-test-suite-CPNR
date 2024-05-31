@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ PATCH กรณีแก้ไขอุปกรณ์สำเร็จ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c08e4735-a1d8-429c-b728-1d7699062450</testCaseGuid>
+</TestCaseEntity>

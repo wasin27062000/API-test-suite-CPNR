@@ -17,11 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('จัดการโครงการ/บริการโครงการ/จัดการประเภทบริการ/GET UUID'))
+response = WS.sendRequest(findTestObject('จัดการโครงการ/Home Automation/เพิ่มอุปกรณ์สำเร็จ', [('token') : GlobalVariable.token
+            , ('${uuid}') : GlobalVariable.uuid]))
 
-uuid = WS.getElementPropertyValue(response, '[0]')
+WS.verifyElementPropertyValue(response, 'status.cause', null)
 
-GlobalVariable.uuid = uuid
+WS.verifyElementPropertyValue(response, 'status.code', '0000')
 
-println('uuid : ' + uuid)
+id_DeviceHomeAutomation = WS.getElementPropertyValue(response, 'response.id')
+
+GlobalVariable.id_DeviceHomeAutomation = id_DeviceHomeAutomation
 

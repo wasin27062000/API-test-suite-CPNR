@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ POST กรณีเพิ่มประกาศข่าวสารสำเร็จ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c33029b7-d582-4250-a9f6-0ad41393f904</testCaseGuid>
+</TestCaseEntity>

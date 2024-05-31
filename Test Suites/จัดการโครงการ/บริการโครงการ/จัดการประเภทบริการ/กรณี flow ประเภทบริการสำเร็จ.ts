@@ -26,6 +26,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>493c48ad-c4d0-4655-819c-3db8d68fe9a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/จัดการโครงการ/บริการโครงการ/จัดการประเภทบริการ/gen uuid</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>d9a4f18a-74df-4a01-a929-1d588b65a7cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

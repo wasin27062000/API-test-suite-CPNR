@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ POST กรณีเพิ่มอุปกรณ์ home automation สำเร็จ</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fd1e63aa-1971-47c9-a51d-a54353249acb</testCaseGuid>
+</TestCaseEntity>

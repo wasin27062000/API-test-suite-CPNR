@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ POST กรณีเพิ่มอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>818026f0-6178-418f-b094-09f28d3aa7c2</testCaseGuid>
+</TestCaseEntity>

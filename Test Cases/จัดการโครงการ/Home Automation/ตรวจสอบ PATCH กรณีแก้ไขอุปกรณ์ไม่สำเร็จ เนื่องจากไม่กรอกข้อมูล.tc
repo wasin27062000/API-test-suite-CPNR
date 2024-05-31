@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ PATCH กรณีแก้ไขอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>427f3e00-12dc-44f9-9095-9ef21e803263</testCaseGuid>
+</TestCaseEntity>

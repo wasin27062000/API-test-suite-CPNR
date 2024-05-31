@@ -46,4 +46,25 @@
       <testCaseId>Test Cases/จัดการโครงการ/Home Automation/ตรวจสอบ PATCH กรณีแก้ไขอุปกรณ์สำเร็จ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c961163a-9e09-4506-b16e-9a6017d71d3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/จัดการโครงการ/Home Automation/ตรวจสอบ DELETE อุปกรณ์</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>088ef84b-15d3-43bb-b89e-3a6ac56d54ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/จัดการโครงการ/Home Automation/ตรวจสอบ POST กรณีเพิ่มอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf95f277-17c6-4831-bd3b-0932c16aa067</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/จัดการโครงการ/Home Automation/ตรวจสอบ PATCH กรณีแก้ไขอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

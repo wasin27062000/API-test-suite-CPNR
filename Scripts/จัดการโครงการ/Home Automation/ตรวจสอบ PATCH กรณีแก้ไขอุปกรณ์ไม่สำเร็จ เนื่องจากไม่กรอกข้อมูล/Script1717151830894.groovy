@@ -17,14 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('จัดการโครงการ/Home Automation/เพิ่มอุปกรณ์สำเร็จ', [('token') : GlobalVariable.token
-            , ('${uuid}') : GlobalVariable.uuid]))
+response = WS.sendRequest(findTestObject('จัดการโครงการ/Home Automation/ตรวจสอบการแก้ไขอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล', 
+        [('token') : GlobalVariable.token, ('device') : GlobalVariable.device]))
 
-WS.verifyElementPropertyValue(response, 'status.cause', null)
+WS.verifyElementPropertyValue(response, 'status.cause', '00')
 
-WS.verifyElementPropertyValue(response, 'status.code', '0000')
-
-device = WS.getElementPropertyValue(response, 'response.id')
-
-GlobalVariable.device = device
+WS.verifyElementPropertyValue(response, 'status.code', '0001')
 

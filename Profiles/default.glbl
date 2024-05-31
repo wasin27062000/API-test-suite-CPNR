@@ -171,7 +171,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'${id_DeviceHomeAutomation}'</initValue>
-      <name>id_DeviceHomeAutomation</name>
+      <initValue>'${device}'</initValue>
+      <name>device</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

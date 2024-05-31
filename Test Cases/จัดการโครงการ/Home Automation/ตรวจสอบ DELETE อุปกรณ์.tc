@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ตรวจสอบ DELETE อุปกรณ์</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ba5da79-66cd-48b0-beb2-84b1c8d8f1e6</testCaseGuid>
+</TestCaseEntity>

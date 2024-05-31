@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>ตรวจสอบการแก้ไขอุปกรณ์สำเร็จ</name>
+   <name>ตรวจสอบการแก้ไขอุปกรณ์ไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล</name>
    <tag></tag>
-   <elementGuidId>b6b48823-5d7d-4b7e-bdcf-578d6c8b29a9</elementGuidId>
+   <elementGuidId>0d3975dd-dfdf-4fb0-9214-31efa0e97bb5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: \&quot;${device}\&quot;,\n  \&quot;image\&quot;: \&quot;https://residentialfamily-dev.centralpattana.co.th/dev/assets/upload/home-automation/e1189e96-0f7c-4f0d-b27d-e172b233ff6c.jpg\&quot;,\n  \&quot;name\&quot;: {\n    \&quot;th\&quot;: \&quot;ทดสอบแก้ไขชื่ออุปกรณ์\&quot;,\n    \&quot;en\&quot;: \&quot;Test Edit device\&quot;\n  },\n  \&quot;type\&quot;: \&quot;deepLink\&quot;,\n  \&quot;orderedBy\&quot;: 3,\n  \&quot;active\&quot;: false,\n  \&quot;projects\&quot;: [\n    {\n      \&quot;id\&quot;: \&quot;0da685d4-6389-4eb5-8753-afdbd5f95e61\&quot;,\n      \&quot;name\&quot;: {\n        \&quot;th\&quot;: \&quot;เอสเซ็นท์ พาร์ควิลล์ เชียงใหม่\&quot;,\n        \&quot;en\&quot;: \&quot;ESCENT PARK VILLE CHIANGMAI\&quot;\n      }\n    }\n  ],\n  \&quot;urlIOS\&quot;: \&quot;https://app.clickup.com/t/86cvgajzr\&quot;,\n  \&quot;urlAndroid\&quot;: \&quot;https://app.clickup.com/t/86cvgajzr\&quot;,\n  \&quot;storeUrlIOS\&quot;: \&quot;https://app.clickup.com/t/86cvgajzr\&quot;,\n  \&quot;storeUrlAndroid\&quot;: \&quot;https://app.clickup.com/t/86cvgajzr\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \&quot;id\&quot;: \&quot;${device}\&quot;,\n  \&quot;image\&quot;: \&quot;https://residentialfamily-dev.centralpattana.co.th/dev/assets/upload/home-automation/e1189e96-0f7c-4f0d-b27d-e172b233ff6c.jpg\&quot;,\n  \&quot;name\&quot;: {\n    \&quot;th\&quot;: \&quot;\&quot;,\n    \&quot;en\&quot;: \&quot;\&quot;\n  },\n  \&quot;type\&quot;: \&quot;deepLink\&quot;,\n  \&quot;orderedBy\&quot;: 3,\n  \&quot;active\&quot;: false,\n  \&quot;projects\&quot;: [\n    {\n      \&quot;id\&quot;: \&quot;0da685d4-6389-4eb5-8753-afdbd5f95e61\&quot;,\n      \&quot;name\&quot;: {\n        \&quot;th\&quot;: \&quot;เอสเซ็นท์ พาร์ควิลล์ เชียงใหม่\&quot;,\n        \&quot;en\&quot;: \&quot;ESCENT PARK VILLE CHIANGMAI\&quot;\n      }\n    }\n  ],\n  \&quot;urlIOS\&quot;: \&quot;\&quot;,\n  \&quot;urlAndroid\&quot;: \&quot;\&quot;,\n  \&quot;storeUrlIOS\&quot;: \&quot;\&quot;,\n  \&quot;storeUrlAndroid\&quot;: \&quot;\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

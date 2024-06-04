@@ -12,6 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f13f38f0-f10f-40db-b644-2fc7df803a4a</testSuiteGuid>
    <testCaseLink>
+      <guid>550ad6bc-6455-43e9-8c2d-613c9e0f1b80</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login Web CPNR</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>de1bcb33-6f73-442f-87aa-effacb8bf75f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -4,5 +4,6 @@
    <name>ตรวจสอบ POST กรณีเพิ่มประกาศข่าวสารไม่สำเร็จ เนื่องจากไม่กรอกข้อมูล TH</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b4226781-0ea5-4d01-95ea-93cd4317672c</testCaseGuid>
 </TestCaseEntity>

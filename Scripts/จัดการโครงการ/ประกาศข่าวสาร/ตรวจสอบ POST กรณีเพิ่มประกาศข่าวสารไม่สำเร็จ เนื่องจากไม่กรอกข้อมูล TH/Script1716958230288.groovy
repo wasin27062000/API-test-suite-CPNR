@@ -24,7 +24,3 @@ WS.verifyElementPropertyValue(response, 'status.cause', '00')
 
 WS.verifyElementPropertyValue(response, 'status.code', '0001')
 
-id_announcement = WS.getElementPropertyValue(response, 'response.id')
-
-GlobalVariable.id_announcement = id_announcement
-
